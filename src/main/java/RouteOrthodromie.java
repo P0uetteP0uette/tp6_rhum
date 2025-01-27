@@ -1,8 +1,15 @@
-public class RouteOrthodromie implements SuivreRoute{
+/**
+ * La classe RouteOrthodromie implémente l'interface SuivreRoute.
+ * Elle représente la route orthodromique.
+ */
+public class RouteOrthodromie implements SuivreRoute {
 
-    public void suivreRoute(){
-        System.out.println( "Vous suivez la route orthodromie");
-
+    /**
+     * Méthode pour suivre la route orthodromique.
+     * Affiche un message indiquant que vous suivez la route orthodromique.
+     */
+    @Override
+    public void suivreRoute() {
+        System.out.println("Vous suivez la route orthodromie");
     }
-
 }
