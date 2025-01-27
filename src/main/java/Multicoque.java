@@ -26,3 +26,4 @@ public class Multicoque extends Voilier {
         return nom + " est multicoque";
     }
 }
+    
